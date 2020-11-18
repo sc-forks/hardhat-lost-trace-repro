@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-lost-trace-repro",
+  "version": "1.0.0",
+  "description": "Reproduces missing trace data in Hardhat experimental trace hook",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc-forks/hardhat-lost-trace-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sc-forks/hardhat-lost-trace-repro/issues"
+  },
+  "homepage": "https://github.com/sc-forks/hardhat-lost-trace-repro#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "hardhat": "^2.0.3"
+  }
+}
